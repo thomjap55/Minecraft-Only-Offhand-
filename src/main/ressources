@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "offhand-only",
+  "version": "1.0.0",
+  "name": "Only Offhand Challenge",
+  "description": "Remove the entier Inventory except for Armor and Offhand",
+  "authors": ["thomjap"],
+  "contact": {
+    "sources": "https://www.youtube.com/thomjap"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tonnom.mod.TonMod"
+    ]
+  },
+  "mixins": [
+    "tonmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
